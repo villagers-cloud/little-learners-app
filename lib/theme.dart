@@ -17,7 +17,7 @@ ThemeData buildAppTheme() {
     fontFamily: 'Roboto',
     colorScheme: ColorScheme.fromSeed(
       seedColor: AppColors.grape,
-      background: AppColors.cream,
+      surface: AppColors.cream,
     ),
     textTheme: const TextTheme(
       headlineSmall: TextStyle(fontWeight: FontWeight.w800, color: AppColors.ink),
